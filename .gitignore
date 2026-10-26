@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv*/
+.env
+.env.*
+*.pem
+*.cer
+*.key
+*.har
+public_text_reports/
+.claude/
+.superbrain/
+.DS_Store
