@@ -1,5 +1,7 @@
 # Public Text Extractor
 
+See the [complete repository guide](../README.md) for the current system-design harness, crawling, JavaScript analysis, Burp/HAR setup, assessment scripts, analysis history, and limitations. The current harness writes `system_design.md` and `system_design.json`; the smaller commands below retain their own output names.
+
 A small, dependency-free Python tool for extracting readable text from a public web page.
 
 It accepts any `http://` or `https://` URL, checks `robots.txt` when available, fetches the page once, removes scripts/styles/navigation boilerplate, and writes a Markdown report plus JSON metadata. It does not log in, bypass access controls, evade anti-bot systems, or crawl beyond the URL supplied.
